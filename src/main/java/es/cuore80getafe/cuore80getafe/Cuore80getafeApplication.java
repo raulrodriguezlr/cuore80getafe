@@ -1,4 +1,4 @@
-package es.coderurjc.apirestreservabicicletas;
+package es.cuore80getafe.cuore80getafe;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
