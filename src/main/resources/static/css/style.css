@@ -12,7 +12,34 @@
 [class*=" flaticon-"]:after {
     font-size: inherit;
     margin-left: 0;
+}	
+
+/*MODIFICACION DEL CSS PERSONALIZADO*/
+body{
+	background:rgb(0, 0, 0);
+	}
+	
+.btn-light {
+	color:#222429;
+	background: rgb(184, 131, 194);
+	border-color:  rgb(184, 131, 194);
 }
+.bg-dark{
+	background: rgb(81, 43, 89) !important;
+}
+.div-rrss-contacto{
+	background: rgb(215, 218, 227)  !important;
+}
+
+
+/*Hover de las redes sociales*/
+.rrss:hover{
+	color: rgb(0, 0, 0) !important;
+  box-shadow: 0 4px 16px rgb(193, 141, 241);
+  transition: all 0.2s ease;
+}
+
+/*FIN DEL CSS PERSONALIZADO*/
 
 h1,
 h2,
@@ -219,6 +246,7 @@ h6,
         background: var(--primary);
     }
 }
+
 img.logo{
 	width: 50px!important;
 	height:50px!important;
