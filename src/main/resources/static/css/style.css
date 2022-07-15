@@ -25,7 +25,8 @@ body{
 	border-color:  rgb(184, 131, 194);
 }
 .bg-dark{
-	background: rgb(81, 43, 89) !important;
+	background: rgb(43, 43, 69) ;
+
 }
 .div-rrss-contacto{
 	background: rgb(215, 218, 227)  !important;
@@ -247,7 +248,32 @@ h6,
     }
 }
 
-img.logo{
-	width: 50px!important;
-	height:50px!important;
+.logo{
+	width:100%;
+	height:100%;
+	transform: scale(1.1);
+
+}
+.mapa{
+	
+	display: block;
+	text-align: center;
+	position: relative;
+	
+	margin: 0px auto;
+	
+	float: left;
+
+	margin-top:3em;
+	margin-left: 3em;
+}
+.dentro_parte{
+	height: 400px;
+	width: 400px;
+	background: white;
+	
+	border: 1.5px solid black;
+	
+	
+	box-shadow: 6px 5px 10px rgb(180, 180, 180);
 }
