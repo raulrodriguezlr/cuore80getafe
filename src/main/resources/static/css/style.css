@@ -18,7 +18,10 @@
 body{
 	background:rgb(0, 0, 0);
 	}
-	
+.medidas-fotos-actividades{
+	width: 800px;
+	height: 500px;
+}
 .btn-light {
 	color:#222429;
 	background: rgb(184, 131, 194);
@@ -32,7 +35,11 @@ body{
 	background: rgb(215, 218, 227)  !important;
 }
 
-
+.h5-hover:hover{
+		color: rgb(255, 255, 255) !important;
+  box-shadow:4px  rgb(193, 141, 241);
+  transition: all 0.2s ease;
+}
 /*Hover de las redes sociales*/
 .rrss:hover{
 	color: rgb(0, 0, 0) !important;
