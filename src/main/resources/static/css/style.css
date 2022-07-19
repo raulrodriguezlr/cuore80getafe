@@ -22,6 +22,9 @@ body{
 	width: 800px;
 	height: 500px;
 }
+.btn-primary2{
+	background: rgb(184, 131, 194);
+}
 .btn-light {
 	color:#222429;
 	background: rgb(184, 131, 194);
@@ -30,6 +33,9 @@ body{
 .bg-dark{
 	background: rgb(43, 43, 69) ;
 
+}
+.nav-pills2{
+	background-color: #fff;
 }
 .div-rrss-contacto{
 	background: rgb(215, 218, 227)  !important;
@@ -164,7 +170,7 @@ h6,
 }
 
 .bg-hero {
-    background: linear-gradient(rgba(34, 36, 41, .8), rgba(34, 36, 41, .8)), url(../img/carousel-1.jpg) top center no-repeat;
+    background: linear-gradient(rgba(34, 36, 41, .8), rgba(34, 36, 41, .8)), url(../img/Cuore80Getafe_Interior.jpg) top center no-repeat;
     background-size: cover;
 }
 
