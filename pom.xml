@@ -70,7 +70,7 @@
                                 <artifactId>spring-boot-maven-plugin</artifactId>
                                 <configuration>
                                 <image>
-                                 <name>cuore80Getafe:${project.version}</name>
+                                 <name>cuore80getafe:${project.version}</name>
                                  </image>
                                 </configuration>
                         </plugin>
