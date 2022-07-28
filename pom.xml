@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>es.cuore80getafe</groupId>
 	<artifactId>cuore80getafe</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.1.0</version>
 	<packaging>jar</packaging>
 	<name>cuore80getafe</name>
 	<description>Demo project for Spring Boot</description>
@@ -58,29 +58,22 @@
 		</dependency> -->
 		
 	</dependencies>
-
-
-
-
-
-	<build>
-                <plugins>
-                        <plugin>
-                                <groupId>org.springframework.boot</groupId>
-                                <artifactId>spring-boot-maven-plugin</artifactId>
-                                <configuration>
-                                <image>
-                                 <name>cuore80getafe:${project.version}</name>
-                                 </image>
-                                </configuration>
-                        </plugin>
-
-        			<plugin>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-maven-plugin</artifactId>
-        </plugin>
-   
-                </plugins>
+		<build>
+	        <plugins>
+	        	<plugin>
+	             <groupId>org.springframework.boot</groupId>
+	             <artifactId>spring-boot-maven-plugin</artifactId>
+	             <configuration>
+		             <image>
+		              <name>cuore80getafe:${project.version}</name>
+		              </image>
+	             </configuration>
+	            </plugin>
+				<plugin>
+			       <groupId>org.springframework.boot</groupId>
+			       <artifactId>spring-boot-maven-plugin</artifactId>
+	  			 </plugin>
+	        </plugins>
         </build>
 
 
