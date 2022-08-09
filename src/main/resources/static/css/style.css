@@ -280,6 +280,7 @@ h6,
 	margin-top:3em;
 	margin-left: 3em;
 }
+
 .dentro_parte{
 	height: 400px;
 	width: 400px;
@@ -289,4 +290,18 @@ h6,
 	
 	
 	box-shadow: 6px 5px 10px rgb(180, 180, 180);
+}
+#mensajeError{
+	margin :40px 10px 40px 10px;
+	color:white;
+}
+#boton-volver{
+	display: inline-block;
+	margin :0px 10px 80px 10px;
+	margin-top: 15px;
+	text-decoration: none;
+	background: rgb(184, 130, 194);
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 5px;
 }

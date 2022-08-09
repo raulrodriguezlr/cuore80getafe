@@ -20,5 +20,9 @@ public class WebController {
 	public String contact() {
 		return "contact";
 	}
+	@GetMapping("/error")
+	public String error() {
+		return "error";
+	}
 	
 }
