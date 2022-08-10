@@ -10,6 +10,10 @@ public class WebController {
 	public String index() {
 		return "index";
 	}
+	@GetMapping("/defaultsite")
+	public String defaultsite() {
+		return "index";
+	}
 	
 	@GetMapping("/about")
 	public String about() {
