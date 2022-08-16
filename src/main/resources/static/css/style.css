@@ -165,9 +165,6 @@ h6,
 .carousel-control-next {
     width: 10%;
 }
-.carousel-control-next.center{
-	align:center;
-}
 
 
 .carousel-control-prev-icon,
@@ -226,12 +223,8 @@ h6,
     margin-top: 30px;
     display: flex;
     justify-content: start;
-    
 }
-.owl-carousel{
-	width: 45px;
-    height: 45px;
-}
+
 .testimonial-carousel .owl-nav .owl-prev,
 .testimonial-carousel .owl-nav .owl-next{
     position: relative;
@@ -257,7 +250,6 @@ h6,
     width: 90px;
     height: 90px;
 }
-
 .blog-item img {
     transition: .5s;
 }
@@ -306,7 +298,6 @@ h6,
 	margin :40px 10px 40px 10px;
 	color:white;
 }
-
 #boton-volver{
 	display: inline-block;
 	margin :0px 10px 80px 10px;
@@ -319,3 +310,6 @@ h6,
 }
 
 
+.carruselUbicacion {
+    width:45% 
+}
