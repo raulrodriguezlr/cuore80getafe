@@ -313,3 +313,30 @@ h6,
 .carruselUbicacion {
     width:45% 
 }
+/*FOTO*/
+.galeria{
+	 display:block;
+margin:auto;
+width:70%;
+height:70%;
+transform:scale(1);
+	 }
+.left{
+	margin-left:auto;
+	
+}
+.right{
+	margin-right:auto;
+	
+}	
+.top-auto{
+	margin-top:auto;
+}	 
+.evento{
+	width:50%;
+	height:50%;
+	
+	
+	text-align: center;
+	position: relative;
+}

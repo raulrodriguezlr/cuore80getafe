@@ -1,0 +1,72 @@
+{{>header}}
+		
+	<div class="row g-5"></br>
+		{{#first}}
+         <div class="col-lg-4 left right top">	
+            <div class="blog-item">
+                <div class="position-relative overflow-hidden rounded-top left right top" >		</br>
+							<a class="lightbox galeria left right top-auto" href="img/{{nombre}}">
+					
+								<img class=" galeria left right top-auto" src="img/{{nombre}}"  alt="">
+							</a>	
+							<p>{{id}}</p>
+							 															
+                </div>
+            </div>
+        </div>
+         {{/first}}
+         {{#second}}	
+         <div class="col-lg-4 left right top">
+            <div class="blog-item">
+                <div class="position-relative overflow-hidden rounded-top left right top" >	</br>                        
+							<a class="lightbox galeria left right top-auto" href="img/{{nombre}}">
+							
+								<img class=" galeria left right top-auto" src="img/{{nombre}}"  alt="">
+							</a>	
+							<p>{{id}}</p>	
+									
+                </div>
+            </div>	
+        </div>
+        {{/second}}
+        {{#third}}
+         <div class="col-lg-4 left right top">	
+            <div class="blog-item">
+                <div class="position-relative overflow-hidden rounded-top left right top" > </br>          
+							<a class="lightbox galeria left right top-auto" href="img/{{nombre}}">
+							
+								<img class=" galeria left right top-auto" src="img/{{nombre}}"  alt="">
+							</a>	
+							<p>{{id}}</p>						
+                </div>
+                
+            </div>	
+        </div>
+       {{/third}}
+	</div>
+			
+		
+	<div class="container-fluid p-5">
+      
+           <form class="row g-3 needs-validation" action="/deletePhotos" method ="post">
+			  <div class="col-md-4">
+			    <label for="fil" class="form-label">id foto a borrar</label>
+			    <input id="fil" type="text" class="form-control" name="idF"  required>
+			    
+			  </div>
+			
+			  <div class="row-12">
+			  	<a href="/galeria" class="btn btn-primary ">Atras</a>
+			    <button class="btn btn-primary" type="submit">Aceptar</button>
+			  </div>
+			</form>
+
+            
+       
+    </div>
+		
+			
+		
+		
+		
+{{>footer}}

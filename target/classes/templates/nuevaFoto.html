@@ -1,0 +1,43 @@
+{{>header}}
+<body>
+    <!-- Header Start -->
+    <div class="container-fluid bg-dark px-0">
+    	<div class="row gx-1">
+    	
+    		<!--PONER EL LOGO AQUI
+    		<div class="col-lg-1 bg-dark d-none d-lg-block">
+            	
+            </div>
+    		
+    		CONTAINER DE AL LADO DEL LOGO-->
+	
+    		<div class="col-lg-12">
+	    		<h1 class="display-2 text-center test-uppercase text-white mb-md-4"> Subir Foto</h1>
+    			
+    		</div>	
+    	</div>
+    </div>
+    <!-- Header End -->
+    
+
+    <!-- Blog Start -->
+    <div class="container-fluid p-5">
+      
+           <form class="row g-3 needs-validation" enctype="multipart/form-data" action="/uploadPhotos" method ="post">
+			  <div class="col-md-4">
+			    <label for="fil" class="form-label">Nombre</label>
+			    <input id="fil" type="file" class="form-control" name="file"  required>
+			    
+			  </div>
+			
+			  <div class="row-12">
+			  	<a href="/" class="btn btn-primary ">Atras</a>
+			    <button class="btn btn-primary" type="submit">Aceptar</button>
+			  </div>
+			</form>
+
+            
+       
+    </div>
+    <!-- Blog End -->
+    {{>footer}}

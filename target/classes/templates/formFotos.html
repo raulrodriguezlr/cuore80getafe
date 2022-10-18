@@ -1,0 +1,24 @@
+{{>header}}
+<div class="container-fluid p-5">
+      
+           <form:form  class="row g-3 needs-validation" action="/uploadPhotos" method ="post">
+			  
+			  <div class="row-md-4">
+				  <div class="col-md-4">
+				    <label class="form-label">Selecciona Archivo</label>
+				    <input type="text" class="form-control"  name="nombre"   required>
+				  </div>
+			  </div>
+			
+			  <div class="row-12">
+			  	<a href="/" class="btn btn-primary ">Atras</a>
+			    <button class="btn btn-primary" type="submit">Aceptar</button>
+			  </div>
+			</form:form modelAttribute="fotos">
+
+            
+       
+    </div>
+	 	
+
+{{>footer}}
