@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>es.cuore80getafe</groupId>
 	<artifactId>cuore80getafe</artifactId>
-	<version>0.2.1</version>
+	<version>0.2.2</version>
 	<packaging>jar</packaging>
 	<name>cuore80getafe</name>
 	<description>Cuore 80 getafe| Discoteca Cuore getafe, lo mejor de la musica remember de los 80 en getafe</description>
